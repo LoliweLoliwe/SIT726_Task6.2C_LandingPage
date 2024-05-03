@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head'); %>
+</head>
+<div class="all-container">
+
+<header>
+    <%- include('../partials/header'); %>
+</header>
+
+<main> 
+          <div class="jumbotron">
+            <h1><strong>Free personal budgeting tool</strong></h1>
+            <p>Don’t grow your cash. Manage the one on your hands.</p>
+            <div class="flier"><img src="/images/ausd12.png" alt="flying money"></div>
+          </div>
+      
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="well">
+                <h4><p style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-style: italic; font-size: x-large;">This solution will help you to cut your spending, <br>seek more funds, and get things done.</p></h4>
+              </div>
+            </div>
+      
+        <div class="col-sm-6">
+          <div class="well">
+            <h2 style="text-align:center; color: darkgoldenrod;">Login or sign-up now:</h2>
+            <div class="vl">
+              <span class="vl-innertext">or</span>
+            </div>
+            <div style="text-align: right">
+              <%- include('../partials/signin'); %>
+            </div>
+          </div>
+        </div>
+    </div>
+
+</main>
+<%- include('../partials/carousel'); %>
+<marquee>
+  <div class="wrapper">
+  <div class="box a">
+    <h2>Tailor Jeans</h2>
+    <p>Some text about the jeans.....</p>
+  </div>
+  <div class="box b">
+    <h2>Tailor Jeans</h2>
+    <p>Some text about the jeans.....</p>
+  </div>
+  <div class="box c">
+    <h2>Tailor Jeans</h2>
+    <p>Some text about the jeans.....</p>
+  </div>
+  <div class="box d">
+    <h2>Tailor Jeans</h2>
+    <p>Some text about the jeans.....</p>
+  </div>
+  <div class="box e">
+    <h2>Tailor Jeans</h2>
+    <p>Some text about the jeans.....</p>
+  </div>
+  <div class="box f">
+    <h2>Tailor Jeans</h2>
+    <p>Some text about the jeans.....</p>
+  </div>
+  <div class="box g">
+    <h2>Tailor Jeans</h2>
+    <p>Some text about the jeans.....</p>
+  </div>
+</marquee>
+<hr>
+<footer>
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="well">
+        <h3><span class='app-name'>
+          <div id="navbar"><img src="/images/image.png" alt="Logo image"><strong>Budget</strong></div>
+        </span></h3>
+        <p style="font-family: Arial, Helvetica, sans-serif; font-size: large;">We provide you with a <strong>tool</strong> to <br><strong>monitor</strong> your spending and <br>goal attainment.</p>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="well">
+        <h3><strong>Quick Links</strong></h3>
+        <ul class="footer-links">
+          <li><a href="">About Us</a></li>
+          <li><a href="">Sign up</a></li>
+          <li><a href="">Place an Order</a></li>
+          <li><a href="">Policies</a></li>
+          <li><a href="">Sitemap</a></li>
+        </ul>
+      </div>
+    </div>  
+    <div class="col-sm-3">
+      <div class="well">
+        <h3><strong>Contact Us</strong></h3>
+        <p><i class="fa fa-map-marker"></i>  3207, Lorem ipsum dolor, Stinkwater</p>
+        <p class="mb-0"><i class="fa fa-phone mr-3"></i>(041) 754-3010</p>
+        <p><i class="fa fa-envelope-o mr-3"></i>info@lm.com</p>
+      </div>
+    </div>
+    <div class="col-sm-2">
+      <div class="well">
+        <h3><strong>Get in Touch</strong></h3>
+        <form action="/" method="post" class="space-y-2">
+          <input type="text" name="g-name" class="g-inp" id="g-name" placeholder='Name' /><br>
+          <input type="email" name="g-email" class="g-inp" id="g-email" placeholder='Email' /><br>
+          <textarea type="text" name="g-msg" class="g-inp h-60 resize-none" id="g-msg" placeholder='Message...'></textarea><br>
+          <button type="submit" class='f-btn'>Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div>
+    <%- include('../partials/footer'); %>
+  </div>
+</footer>
+
+</div>
+</html>
